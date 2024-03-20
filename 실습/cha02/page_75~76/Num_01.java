@@ -8,11 +8,11 @@ public class Num_01 {
 		double w, h, a;
 		
 		Scanner in = new Scanner(System.in);
-		System.out.print("Á÷»ç°¢ÇüÀÇ °¡·Î ±æÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : \n");
+		System.out.print("ì§ì‚¬ê°í˜•ì˜ ê°€ë¡œ ê¸¸ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : \n");
 		w = in.nextDouble();
-		System.out.print("Á÷»ç°¢ÇüÀÇ ¼¼·Î ±æÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : \n");
+		System.out.print("ì§ì‚¬ê°í˜•ì˜ ì„¸ë¡œ ê¸¸ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : \n");
 		h = in.nextDouble();
 		a = w * h;
-		System.out.printf("Á÷»ç°¢ÇüÀÇ ³ĞÀÌ´Â %fÀÔ´Ï´Ù.", a);
+		System.out.printf("ì§ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ” %fì…ë‹ˆë‹¤.", a);
 	}
 }
