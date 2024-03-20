@@ -3,7 +3,7 @@ package cha03;
 public class EchoDemo {
 
 	public static void main(String[] args) {
-		echo("¾È³ç!", 3);
+		echo("ì•ˆë…•!", 3);
 
 	}
 	
