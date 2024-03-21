@@ -7,13 +7,13 @@ public class Num_01 {
 	public static void main(String[] args) {
 		int n;
 		Scanner in = new Scanner(System.in);
-		System.out.print("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë‚˜ì´ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		n = in.nextInt();
 		
 		if (n > 19) {
-			System.out.print("¼º³â");
+			System.out.print("ì„±ë…„");
 		} else {
-			System.out.print("¹Ì¼º³â");
+			System.out.print("ë¯¸ì„±ë…„");
 		}
 
 	}
