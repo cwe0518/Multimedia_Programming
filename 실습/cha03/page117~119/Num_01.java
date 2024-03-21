@@ -7,7 +7,7 @@ public class Num_01 {
 	public static void main(String[] args) {
 		int result = 1, n;
 		Scanner in = new Scanner(System.in);
-		System.out.print("ÆÑÅä¸®¾ó °ªÀ» ±¸ÇÒ Á¤¼ö : ");
+		System.out.print("íŒ©í† ë¦¬ì–¼ ê°’ì„ êµ¬í•  ì •ìˆ˜ : ");
 		n = in.nextInt();
 		
 		while(n > 0) {
@@ -15,7 +15,7 @@ public class Num_01 {
 			n--;
 		}
 		
-// ¹«ÇÑ·çÇÁ¿¡ ºüÁö°Ô µÈ´Ù.		
+// ë¬´í•œë£¨í”„ì— ë¹ ì§€ê²Œ ëœë‹¤.		
 //		while(true) {
 //			result *= n;
 //			n--;
