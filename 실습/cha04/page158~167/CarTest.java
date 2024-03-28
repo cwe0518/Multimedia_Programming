@@ -31,7 +31,7 @@ public class CarTest {
 		Car c2 = new Car("blue");
 		Car c3 = new Car("RED");
 		
-		System.out.printf("ÀÚµ¿Â÷ ¼ö : %d, »¡°£»ö ÀÚµ¿Â÷ ¼ö : %d", Car.getNumOfCar(), Car.getNumOfRedCar());
+		System.out.printf("ìë™ì°¨ ìˆ˜ : %d, ë¹¨ê°„ìƒ‰ ìë™ì°¨ ìˆ˜ : %d", Car.getNumOfCar(), Car.getNumOfRedCar());
 	}
 
 }
