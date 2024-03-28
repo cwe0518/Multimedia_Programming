@@ -11,7 +11,7 @@ class Circle {
 	
 	public Circle(double r){
 		radius = r;
-		color = "ÆÄ¶û";
+		color = "íŒŒë‘";
 	}
 	
 	public Circle(String c){
@@ -21,7 +21,7 @@ class Circle {
 	
 	public Circle(){
 		radius = 10.0;
-		color = "»¡°­";
+		color = "ë¹¨ê°•";
 	}
 	
 //	public double getRadius(){
@@ -37,7 +37,7 @@ class Circle {
 //	}
 //	
 //	void show(double x, double y) {
-//		System.out.printf("¹İÁö¸§ = %.1f, ³ĞÀÌ = %.1f\n", x, y);
+//		System.out.printf("ë°˜ì§€ë¦„ = %.1f, ë„“ì´ = %.1f\n", x, y);
 //	}
 }
 
@@ -53,13 +53,13 @@ public class CircleDemo {
 //		myCircle2.show(myCircle2.getRadius(), myCircle2.findArea());
 
 //		Circle myCircle3 = new Circle();
-//		µğÆúÆ® »ı¼­ÀÚ°¡ ¾øÀ¸¹Ç·Î »ç¿ëX
+//		ë””í´íŠ¸ ìƒì„œìê°€ ì—†ìœ¼ë¯€ë¡œ ì‚¬ìš©X
 		
-		Circle c1 = new Circle(10.0, "»¡°­");
+		Circle c1 = new Circle(10.0, "ë¹¨ê°•");
 		Circle c2 = new Circle(5.0);
-		Circle c3 = new Circle("³ë¶û");
+		Circle c3 = new Circle("ë…¸ë‘");
 		Circle c4 = new Circle();
-//		¼ø¼­´ë·Î »ı¼ºÀÚ 1,2,3,4 È£Ãâ
+//		ìˆœì„œëŒ€ë¡œ ìƒì„±ì 1,2,3,4 í˜¸ì¶œ
 	}
 
 }
