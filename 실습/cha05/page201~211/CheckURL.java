@@ -9,21 +9,21 @@ public class CheckURL {
 		Scanner in = new Scanner(System.in);
 		
 		while(true) {
-			System.out.print("URLÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+			System.out.print("URLì„ ì…ë ¥í•˜ì„¸ìš” : ");
 			url = in.next();
 			
 			if(url.equals("bye")) {
-				System.out.println("Á¾·áµÇ¾ú½À´Ï´Ù.");
+				System.out.println("ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 				break;
 			}
 				
 			
 			endsWithResult = 
-				url.endsWith("com") ? "Àº 'com'À¸·Î ³¡³³´Ï´Ù." : "Àº 'com'À¸·Î ³¡³ªÁö ¾Ê½À´Ï´Ù.";
-			System.out.println(url + "Àº " + endsWithResult);
+				url.endsWith("com") ? "ì€ 'com'ìœ¼ë¡œ ëë‚©ë‹ˆë‹¤." : "ì€ 'com'ìœ¼ë¡œ ëë‚˜ì§€ ì•ŠìŠµë‹ˆë‹¤.";
+			System.out.println(url + "ì€ " + endsWithResult);
 			
 			containsResult = 
-					url.contains("java") ? "Àº 'java'¸¦ Æ÷ÇÔÇÕ´Ï´Ù." : "Àº 'java'¸¦ Æ÷ÇÔÇÏÁö ¾Ê½À´Ï´Ù.";
+					url.contains("java") ? "ì€ 'java'ë¥¼ í¬í•¨í•©ë‹ˆë‹¤." : "ì€ 'java'ë¥¼ í¬í•¨í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.";
 			System.out.println(url + containsResult);
 			
 		}
