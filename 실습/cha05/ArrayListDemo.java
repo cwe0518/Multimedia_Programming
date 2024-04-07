@@ -17,7 +17,7 @@ public class ArrayListDemo {
 			sum += scores.get(i);
 		
 		
-		System.out.println("Æò±Õ = " + (double)sum / scores.size());
+		System.out.println("Ã†Ã²Â±Ã• = " + (double)sum / scores.size());
 	}
 
 }
