@@ -8,7 +8,7 @@ class Girl {
 	}
 
 	public void show() {
-		System.out.println(name + " ÀÚ¹Ù ÃÊº¸ÀÚÀÌ´Ù.");
+		System.out.println(name + " ìë°” ì´ˆë³´ìì´ë‹¤.");
 	}
 }
 
@@ -18,7 +18,7 @@ class GoodGirl extends Girl {
 	}
 
 	public void show() {
-		System.out.println(name + " ÀÚ¹Ù¸¦ Àß ¾È´Ù.");
+		System.out.println(name + " ìë°”ë¥¼ ì˜ ì•ˆë‹¤.");
 	}
 }
 
@@ -28,14 +28,14 @@ class BestGirl extends GoodGirl {
 	}
 
 	public void show() {
-		System.out.println(name + " ÀÚ¹Ù¸¦ ¹«ÁöÇÏ°Ô Àß ¾È´Ù.");
+		System.out.println(name + " ìë°”ë¥¼ ë¬´ì§€í•˜ê²Œ ì˜ ì•ˆë‹¤.");
 	}
 }
 
 public class GirlTest {
 
 	public static void main(String[] args) {
-		Girl[] girls = { new Girl("°©¼øÀÌ"), new GoodGirl("ÄáÁã"), new BestGirl("È²ÁøÀÌ") };
+		Girl[] girls = { new Girl("ê°‘ìˆœì´"), new GoodGirl("ì½©ì¥"), new BestGirl("í™©ì§„ì´") };
 
 		for (Girl g : girls) {
 			g.show();
