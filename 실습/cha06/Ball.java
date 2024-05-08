@@ -8,15 +8,15 @@ public class Ball extends Circle {
 	}
 
 	public void findColor() {
-		System.out.println(color + " °øÀÌ´Ù.");
+		System.out.println(color + " ê³µì´ë‹¤.");
 	}
 
 	@Override
 	public void findArea() {
-		System.out.println("³ĞÀÌ´Â (PI*¹İÁö¸§*¹İÁö¸§)ÀÌ´Ù.");
+		System.out.println("ë„“ì´ëŠ” (PI*ë°˜ì§€ë¦„*ë°˜ì§€ë¦„)ì´ë‹¤.");
 	}
 
 	public void findVolume() {
-		System.out.println("ºÎÇÇ´Â 4/3*(PI*¹İÁö¸§*¹İÁö¸§*¹İÁö¸§)ÀÌ´Ù.");
+		System.out.println("ë¶€í”¼ëŠ” 4/3*(PI*ë°˜ì§€ë¦„*ë°˜ì§€ë¦„*ë°˜ì§€ë¦„)ì´ë‹¤.");
 	}
 }
