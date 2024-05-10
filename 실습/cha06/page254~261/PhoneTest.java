@@ -8,7 +8,7 @@ class Phone {
 	}
 
 	void talk() {
-		System.out.printf("%s°¡ ÅëÈ­ ÁßÀÌ´Ù.\n", owner);
+		System.out.printf("%sê°€ í†µí™” ì¤‘ì´ë‹¤.\n", owner);
 	}
 }
 
@@ -25,7 +25,7 @@ class Telephone extends Phone {
 	}
 
 	void autoAnswering() {
-		System.out.printf("%s°¡ ¾ø´Ù. %s ÀüÈ­ ÁÙ·¡.\n", owner, when);
+		System.out.printf("%sê°€ ì—†ë‹¤. %s ì „í™” ì¤„ë˜.\n", owner, when);
 	}
 }
 
@@ -38,18 +38,25 @@ class Smartphone extends Telephone {
 	}
 
 	void playGame() {
-		System.out.printf("%s°¡ %s °ÔÀÓÀ» ÇÏ´Â ÁßÀÌ´Ù.\n", owner, game);
+		System.out.printf("%sê°€ %s ê²Œì„ì„ í•˜ëŠ” ì¤‘ì´ë‹¤.\n", owner, game);
 	}
 }
 
 public class PhoneTest {
 
 	public static void main(String[] args) {
-		Phone[] phones = { new Phone("È²ÁøÀÌ"), new Telephone("±æµ¿ÀÌ", "³»ÀÏ"), new Smartphone("¹Î±¹ÀÌ", "°¶·¯±×") };
+		Phone[] phones = { new Phone("í™©ì§„ì´"), new Telephone("ê¸¸ë™ì´", "ë‚´ì¼"), new Smartphone("ë¯¼êµ­ì´", "ê°¤ëŸ¬ê·¸") };
 
 		for (Phone p : phones) {
-			// °´Ã¼ Å¸ÀÔ Á¶»ç
+			if (p instanceof Smartphone) {
+				((Smartphone) p).playGame();
+			} else if (p instanceof Telephone) {
+				((Telephone) p).autoAnswering();
+			} else {
+				p.talk();
+			}
 		}
+
 	}
 
 }
