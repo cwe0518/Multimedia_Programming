@@ -16,13 +16,13 @@ public class BookTest {
 		Books[] b = { new Books(15000), new Books(50000), new Books(20000) };
 		int[] booksPrice = new int[3];
 
-		System.out.println("Á¤·Ä Àü");
+		System.out.println("ÃÂ¤Â·Ã„ Ã€Ã¼");
 		for (int i = 0; i < b.length; i++) {
 			System.out.printf("Book [price=%d]\n", b[i].price);
 			booksPrice[i] = b[i].price;
 		}
 
-		System.out.println("Á¤·Ä ÈÄ");
+		System.out.println("ÃÂ¤Â·Ã„ ÃˆÃ„");
 		Arrays.sort(booksPrice);
 		for (int bp : booksPrice) {
 			System.out.printf("Book [price=%d]\n", bp);
