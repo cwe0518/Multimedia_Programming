@@ -9,15 +9,15 @@ public class ArraysDemo {
 		char[] a2 = Arrays.copyOf(a1, a1.length);
 		System.out.println(a2);
 
-		String[] sa = { "ÄÉÀÌÅ©", "¾ÖÇÃ", "µµ³Ó", "¹Ù³ª³ª" };
+		String[] sa = { "ì¼€ì´í¬", "ì• í”Œ", "ë„ë„›", "ë°”ë‚˜ë‚˜" };
 		print(sa);
 
 		Arrays.sort(sa);
 		print(sa);
 
-		System.out.println(Arrays.binarySearch(sa, "¾ÖÇÃ"));
+		System.out.println(Arrays.binarySearch(sa, "ì• í”Œ"));
 
-		Arrays.fill(sa, 2, 4, "±âÅ¸");
+		Arrays.fill(sa, 2, 4, "ê¸°íƒ€");
 		print(sa);
 	}
 
