@@ -5,8 +5,8 @@ import java.util.Calendar;
 public class CalendarTest {
 
 	public static void main(String[] args) {
-		String[] weekName = { "ÀÏ", "¿ù", "È­", "¼ö", "¸ñ", "±İ", "Åä" };
-		String[] noonName = { "¿ÀÀü", "¿ÀÈÄ" };
+		String[] weekName = { "ì¼", "ì›”", "í™”", "ìˆ˜", "ëª©", "ê¸ˆ", "í† " };
+		String[] noonName = { "ì˜¤ì „", "ì˜¤í›„" };
 		Calendar c = Calendar.getInstance();
 
 		int year = c.get(Calendar.YEAR);
@@ -20,9 +20,9 @@ public class CalendarTest {
 		int noonNum = c.get(Calendar.AM_PM);
 		String noon = noonName[noonNum];
 
-		System.out.println(year + "³â " + month + "¿ù " + day + "ÀÏ ");
-		System.out.println(week + "¿äÀÏ " + noon);
-		System.out.println(hour + "½Ã " + minute + "ºĞ " + second + "ÃÊ ");
+		System.out.println(year + "ë…„ " + month + "ì›” " + day + "ì¼ ");
+		System.out.println(week + "ìš”ì¼ " + noon);
+		System.out.println(hour + "ì‹œ " + minute + "ë¶„ " + second + "ì´ˆ ");
 
 	}
 
